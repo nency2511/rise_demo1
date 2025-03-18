@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        th{
+            background-color: rgb(128, 188, 208);
+            color: brown;
+        }
+
+        td{
+            background-color: rgb(216, 206, 226);
+            color: rgb(53, 11, 92);
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>Assignment 2 - Table</caption>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Pencils</td>
+            <td>2</td>
+            <td>$1</td>
+            <td>$2</td>
+        </tr>
+        <tr>
+            <td>Erasers</td>
+            <td>4</td>
+            <td rowspan="2">$0.50</td>
+            <td>$2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Subtotal</td>
+        
+            <td>$4</td>
+        </tr>
+        <tr>
+            <td>Tax</td>
+            <td>10%</td>
+            <td colspan="2">$0.4</td>
+        </tr>
+        <tr>
+            <td colspan="4"><footer >Footer of the table</footer></td>
+        </tr>
+       
+
+
+    </table>
+</body>
+</html>
